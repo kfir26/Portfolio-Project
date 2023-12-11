@@ -31,23 +31,18 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
-
-    //template_orbnzfk  was -> //import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID
-    //service_ldsziba was -> //import.meta.env.VITE_APP_EMAILJS_SERVICE_ID
-    //2LO6QHCIt4DQE8kt6  was -> //import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
     emailjs
       .send(
         'service_ldsziba', 
         'template_orbnzfk', 
         {
           from_name: form.name,
-          to_name: "Kfir developer",
+          to_name: "", //write when using
           from_email: form.email,
-          to_email: "kfirdeveloper@gmail.com",
+          to_email: "",//write when using
           message: form.message,
         },
-        '2LO6QHCIt4DQE8kt6'
+        ''//write when using
       )
       .then(
         () => {
