@@ -20,7 +20,9 @@ import {
   starbucks,
   tesla,
   shopify,
+  ivory,
   carrent,
+  portfolioProject,
   jobit,
   tripguide,
   threejs,
@@ -48,20 +50,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "iOS Native Developer",
+    title: "Swift Native Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Web Developer",
+    title: "React Native Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web Development",
     icon: creator,
+  },
+  {
+    title: "Android Development",
+    icon: mobile,
   },
 ];
 
@@ -90,10 +92,10 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -110,10 +112,10 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
+  {
+    name: "jira",
+    icon: jira,
+  },
   {
     name: "Github",
     icon: github,
@@ -175,20 +177,20 @@ const experiences = [
   {
     title: "Freelance Developer",
     company_name: "My Own Code",
-    icon: shopify,
+    icon: meta,
     iconBg: "#383E56",
     date: "Aug 2020 - Apr 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a freelance developer, I bring a wealth of expertise in various programming languages and technologies, tailored to meet the unique needs of each project. ",
+      "With a keen eye for detail and a passion for problem-solving, I excel in delivering high-quality, efficient solutions to my clients.",
+      "My commitment to clear communication ensures that project goals are understood and met effectively, fostering strong, collaborative relationships.",
+      "With a dedication to staying updated on the latest industry trends, I consistently strive to exceed client expectations and deliver exceptional results.",
     ],
   },
   {
     title: "iOS Developer",
     company_name: "Ivory Software Solutions",
-    icon: meta,
+    icon: ivory,
     iconBg: "#E6DEDD",
     date: "Apr 2022 - Present",
     points: [
@@ -229,16 +231,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio Project",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "My portfolio project, crafted using React Native and ViteJS, showcases my proficiency in creating sleek, cross-platform mobile applications with seamless performance. By leveraging the power of React Native, I've ensured that the app is not only visually appealing but also highly responsive and user-friendly. Incorporating Tailwind, I've meticulously designed the interface to be both aesthetically pleasing and intuitively navigable, enhancing the overall user experience. With this project, I aim to demonstrate my ability to merge cutting-edge technologies seamlessly, delivering a polished and modern application that reflects my skills as a developer.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "vitejs",
         color: "green-text-gradient",
       },
       {
@@ -246,8 +248,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolioProject,
+    source_code_link: "https://github.com/kfir26/Portfolio-Project",
   },
   {
     name: "Job IT",

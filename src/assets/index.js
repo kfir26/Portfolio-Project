@@ -29,10 +29,12 @@ import photoshop from "./tech/photoshop.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
+import ivory from "./company/Ivory.jpg";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import portfolioProject from "./portfolioProject.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -65,9 +67,11 @@ export {
 ///////////
   meta,
   shopify,
+  ivory,
   starbucks,
   tesla,
   carrent,
+  portfolioProject,
   jobit,
   tripguide,
 };
